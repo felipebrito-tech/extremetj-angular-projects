@@ -1,0 +1,48 @@
+{
+    "name": "extremetj-angular-projects",
+    "displayName": "extremetj-angular-projects",
+    "description": "Extensões essenciais para projetos Angular",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "john-crowson.angular-file-changer",
+        "alexiv.vscode-angular2-files",
+        "angular.ng-template",
+        "1tontech.angular-material",
+        "cyrilletuzi.angular-schematics",
+        "johnpapa.angular2",
+        "segerdekort.angular-cli",
+        "infinity1207.angular2-switcher",
+        "obenjiro.arrr",
+        "formulahendry.auto-close-tag",
+        "steoates.autoimport",
+        "formulahendry.auto-rename-tag",
+        "dbaeumer.vscode-eslint",
+        "rctay.karma-problem-matcher",
+        "stringham.move-ts",
+        "simontest.simontest",
+        "rbbit.typescript-hero"
+    ],
+    "publisher": "felipebrito-tech",
+    "icon": "angular-icon.png",
+    "galleryBanner": {
+        "color": "#0273D4",
+        "theme": "dark"
+    },
+    "keywords": [
+        "angular",
+        "typescript"
+    ],
+    "repository": {
+        "url": "https://github.com/felipebrito-tech/extremetj-angular-projects"
+    },
+    "homepage": "https://github.com/felipebrito-tech/extremetj-angular-projects",
+    "bugs": {
+        "url": "https://github.com/felipebrito-tech/extremetj-angular-projects/issues"
+    }
+}
