@@ -10,6 +10,8 @@ Extensões que considero essenciais (até o presente momento) para desenvolvimen
 
 * [Angular File Changer (Suporta Touch Bar e NgRx)](https://marketplace.visualstudio.com/items?itemName=john-crowson.angular-file-changer) - Navegue entre arquivos de componentes Angular ou arquivos NgRx correspondentes usando o teclado ou a Touch Bar no Mac.
 
+* [Angular Files](https://marketplace.visualstudio.com/items?itemName=alexiv.vscode-angular2-files) - Crie templates de arquivos Angular rapidamente (scaffolding).
+
 * [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher) - Navegue facilmente para typescript(.ts)|template(.html)|style(.scss/.sass/.less/.css) em projetos Angular.
   - Use `alt+o`(Windows) or `shift+alt+o`(macOS)
   - Por default, VSCode abre os arquivos selecionados no modo 'preview'. Quando estiver usando esta extensão, recomendo a seguinte configuração: `workbench.editor.enablePreview": false`
@@ -32,12 +34,15 @@ Extensões que considero essenciais (até o presente momento) para desenvolvimen
 
 * [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) - Permite usar Angular schematics (comandos CLI) diretamente do Files Explorer (ao clicar com o botão direito) ou da Paleta de Comandos (Command Palette).
 
-* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) - Pinta com a mesma cor os 'brackets' - (), {} e [] - em par (abertura e fechamento). É especialmente útil quando eles estão aninhados.
-
 * [Angular-cli](https://marketplace.visualstudio.com/items?itemName=segerdekort.angular-cli) - Facilita o uso do Angular CLI por dentro do VS Code.
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Analisa e encontra problemas em seu código Javascript.
 
 * [TypeScript Hero](https://marketplace.visualstudio.com/items?itemName=rbbit.typescript-hero) - Ordena e organiza seus imports de acordo com a convenção e remove os não usados (`Ctrl+Alt+o` no Win/Linux or `Ctrl+Opt+o` no MacOS).
+
+* [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Formate seus arquivos Javascript / Typescript / CSS. Configurações recomendadas:
+- `"prettier.singleQuote": true` (ajuda quando usamos o auto import).
+- `"prettier.tabWidth": 2` (angular lint usa 2 espaços como identação default. Com esta configuração, você pode continuar usando Tab para a identação, se for sua preferência.)
+- `"prettier.useTabs": false` (o mesmo que o de cima)
 
 **Divirta-se!**

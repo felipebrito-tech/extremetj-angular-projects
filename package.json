@@ -26,6 +26,7 @@
         "rctay.karma-problem-matcher",
         "stringham.move-ts",
         "simontest.simontest",
+        "esbenp.prettier-vscode",
         "rbbit.typescript-hero"
     ],
     "publisher": "felipebrito-tech",
